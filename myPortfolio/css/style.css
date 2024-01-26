@@ -186,6 +186,16 @@ section {
 
 }
 
+.spotify{
+    position: fixed;
+    top: 500px; 
+    right: 10px;
+
+
+
+
+}
+
 .home-sci {
     position: absolute;
     bottom: 4rem;
