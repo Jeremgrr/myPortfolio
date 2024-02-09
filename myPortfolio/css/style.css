@@ -82,7 +82,7 @@ section {
 .home{
     display: flex;
     align-items: center;
-    padding: 0 9%;
+    padding: 0 8%;
     background: url('/images/') no-repeat;
     background-size: cover ;
     background-position: center;
@@ -244,3 +244,44 @@ section {
 }
 
 
+/* ABOUT PAGE */
+
+.about{
+    display: flex;
+    margin-top: 10px; /* Adjust as needed to create space between navbar and content */
+    margin-left: -40px; /* Adjust as needed to position content away from the left edge */
+  
+
+}
+
+.about-content {
+    max-width: 60rem;
+
+}
+
+
+.about-content p{
+    font-size: 1.6rem;
+    margin: 5rem 0 4rem;
+}
+
+.about-content .text-animate {
+    position: relative;
+    width: 32.8rem;
+
+}
+
+.about-content .text-animate h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: .7px var(--main-color);
+}
+
+
+.biography {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+
+}
