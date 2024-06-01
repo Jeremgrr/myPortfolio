@@ -271,7 +271,7 @@ section {
 
 }
 
-.about-content .text-animate h3{
+ .text-animate h3{
     font-size: 3.2rem;
     font-weight: 700;
     color: transparent;
@@ -280,8 +280,9 @@ section {
 
 
 .biography {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 0 20px;
-
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
