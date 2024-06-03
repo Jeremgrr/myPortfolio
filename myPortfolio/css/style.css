@@ -286,3 +286,59 @@ section {
     max-width: 600px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+/* PROJECTS PAGE*/
+
+.projects-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 1rem;
+}
+
+
+/* CONTACT PAGE */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.contact-content{
+    margin-bottom: 20px;
+
+}
+
+
+
+.contact-content label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-content input[type="text"] {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.contact-content input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+#centerBTN {
+    left: 100px;
+}
+
+#message{
+    height: 200px;
+    width: 370px;
+    max-height: 200px; /* Maximum height */
+    overflow-y: auto; /* Add a vertical scrollbar when content overflows */
+    border-radius: 10px; /* Optionally, adjust border radius */
+    resize: vertical; /* Allow vertical resizing */
+}
