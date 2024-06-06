@@ -57,6 +57,8 @@
                 <a href="https://www.facebook.com/jeremiah.green.982845/"><i class='bx bxl-facebook'></i></a>
                 <a href="https://www.instagram.com/jayy.gee3/"><i class='bx bxl-instagram'></i></a>
                 <a href="https://www.linkedin.com/in/jeremiah-green-90797316a/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.github.com/jeremgrr"><i class='bx bxl-github'></i></a>
+
              </div>
 
              <div class="home-imgHover"></div>
@@ -81,7 +83,9 @@
                     <p>                        
                         In my freetime I enjoy gaming with my friends, keeping up with the latest technology with a quick youtube search, and going out to spend time with friends and family. 
                     </p>
+
                 </div>
+
             </div>
 
         
@@ -136,7 +140,7 @@
         
             <div class="form-container">
                 <div class="contact-content">
-                    <form id="emailForm" action="mailto:Jeremiah.green21@yahoo.com" method="post" enctype="text/plain"  >
+                    <form id="emailForm" action="javascript:sendMail();" name="emailForm" method="post"  >
                         <label for="fname"></label>
                         <input type="text" id="fname" name="fname" placeholder="First name"><br><br>
 
@@ -171,13 +175,14 @@
                 var mailtoLink = 'mailto:Jeremiah.green21@yahoo.com' +
                                 '?subject=' + encodeURIComponent(subject) +
                                 '&body=' + encodeURIComponent(
-                                    'First Name: ' + firstName + '\n' +
-                                    'Last Name: ' + lastName + '\n' +
-                                    'Email: ' + email + '\n\n' +
+                                    'Sent From Jeremiah Green\'s Web Portfolio by ' + firstName + ' ' +
+                                     lastName + ' ' +
+                                    '(' + email + ')' + '\n\n' +
                                     'Message:\n' + message
                                 );
 
                 window.location.href = mailtoLink;
+
             }
 
         </script>
