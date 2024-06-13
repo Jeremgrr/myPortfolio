@@ -6,13 +6,14 @@ function sendEmail() {
     var message = document.getElementById('message').value;
 
     var mailtoLink = 'mailto:Jeremiah.green21@yahoo.com' +
-                     '?subject=' + encodeURIComponent(subject) +
-                     '&body=' + encodeURIComponent(
-                        'First Name: ' + firstName + '\n' +
-                        'Last Name: ' + lastName + '\n' +
-                        'Email: ' + email + '\n\n' +
+                    '?subject=' + encodeURIComponent(subject) +
+                    '&body=' + encodeURIComponent(
+                        'Sent From Jeremiah Green\'s Web Portfolio by ' + firstName + ' ' +
+                         lastName + ' ' +
+                        '(' + email + ')' + '\n\n' +
                         'Message:\n' + message
-                     );
+                    );
 
     window.location.href = mailtoLink;
+
 }
