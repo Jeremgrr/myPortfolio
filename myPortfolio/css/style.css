@@ -245,8 +245,8 @@ section {
 #gradPic{
     position: relative;
     border-radius: 20%;
-    top: 100px;
-    right: 0;
+    top: 125px;
+    left: -190px;
 }
 .home-imgHover {
     position: absolute;
@@ -317,9 +317,10 @@ section {
 
 /* CONTACT PAGE */
 .form-container {
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 auto;
-    padding: 20px;
+    margin-left: 50px;
+    margin-top:130px;
     font-family: Arial, sans-serif;
 }
 
@@ -355,10 +356,19 @@ section {
 }
 
 #message{
-    height: 200px;
-    width: 370px;
+    font-size: 18px;
+    height: 100px;
+    width: 300px;
     max-height: 200px; /* Maximum height */
     overflow-y: auto; /* Add a vertical scrollbar when content overflows */
     border-radius: 10px; /* Optionally, adjust border radius */
     resize: vertical; /* Allow vertical resizing */
+}
+
+.Contact-Information{
+    position: absolute;
+    font-size: 25px;
+    margin-left:700px;
+    margin-top:-450px;
+
 }
