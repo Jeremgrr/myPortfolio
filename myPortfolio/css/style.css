@@ -79,6 +79,11 @@ section {
     padding: 10rem 9% 2rem;
 }
 
+.buy-me-coffee{
+    margin-top: 850px;
+    margin-left:-400px;
+}
+
 .home{
     display: flex;
     align-items: center;
@@ -250,8 +255,8 @@ section {
 }
 .home-imgHover {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 0px;
+    right: 0px;
     width: 40%;
     height: 85%;
     background: transparent;
@@ -343,7 +348,7 @@ section {
 
 
 .projects-myFridge {
-    margin-top: -520px;
+    margin-top: -545px;
     margin-left: 600px;
     width: 500px;
     height: 300px;
