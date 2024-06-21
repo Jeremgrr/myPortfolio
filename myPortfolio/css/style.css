@@ -261,7 +261,6 @@ section {
     height: 85%;
     background: transparent;
     transition: 3s;
-    background: var(--bg-color);
     opacity: .6;
 }
 
@@ -310,6 +309,29 @@ section {
     max-width: 600px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     margin-top:50px;
+}
+
+#REU{
+    position: relative;
+    border-radius: 20%;
+    top: 125px;
+    left: -190px;
+}
+
+.about-imgHover{
+    position: relative;
+    top: -800px;
+    right: -1000px;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    transition: 3s;
+    opacity: .6;
+
+}
+
+.about-imgHover:hover {
+    opacity: 1;
 }
 
 /* PROJECTS PAGE*/
