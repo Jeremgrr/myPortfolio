@@ -267,6 +267,86 @@ section {
 .home-imgHover:hover {
     opacity: 1;
 }
+
+/*
+
+@media (max-width: 600px ) {
+    .home{
+        width: 100%;
+    }
+
+    .spotify{
+        width: 20%;
+    }
+    
+}
+
+@media (min-width: 601px ) {
+    .home{
+        width: 100%;
+    }
+    
+    .spotify{
+        width: 20%;
+    }
+}
+
+@media (min-width: 768px ) {
+    .home{
+        width: 100%;
+    }
+
+    .spotify{
+        width: 20%;
+    }
+    
+}
+
+@media (min-width: 992px ) {
+    .home{
+        width: 100%;
+    }
+
+    .spotify{
+        width: 20%;
+    }
+    
+}
+
+@media (min-width: 1200px ) {
+    .home{
+        width: 100%;
+    }
+
+    .spotify{
+        width: 20%;
+    }
+    
+}
+*/
+/*Adjustments to sizes for Mobile Use*/
+@media(max-width: 700px){
+    .logo{
+        margin-left: -100px;
+    }
+    .home-content h1{
+    font-size: 20px;
+}
+    .home-content p{
+        width: 400px;
+    }
+
+    .buy-me-coffee{
+        margin-left: -250px;
+        margin-top: 880px;
+    }
+
+
+
+
+   
+
+}
 /* ABOUT PAGE */
 
 .about{
@@ -334,6 +414,21 @@ section {
     opacity: 1;
 }
 
+@media(max-width: 700px){
+    .about-content .text-animate{
+        margin-left: 125px;
+    }
+
+    .biography{
+        max-width: 75%;
+        margin-left: 50px;
+    }
+
+    .REU{
+        margin-left: -20px;
+
+    }
+}
 /* PROJECTS PAGE*/
 
 
@@ -420,6 +515,30 @@ section {
     opacity: 1;
 }
 
+@media(max-width: 700px){
+    .projects .text-animate{
+        margin-left: 125px;
+    }
+
+    .projects-collably{
+        margin-left:-20px;
+        width:400px;
+        
+    }
+
+    .projects-myFridge{
+        margin-top:50px ;
+        margin-left: -20px;
+        width: 400px;
+    }
+
+    .projects-myFridge-text{
+        margin-left: 0px;
+
+    }
+
+   
+}
 
 /* CONTACT PAGE */
 .form-container {
@@ -486,4 +605,38 @@ section {
     margin-top: 100px;
     width:fit-content;
 
+}
+
+@media(max-width:700px) {
+    .contact .text-animate{
+        margin-left: 125px;
+    }
+
+    .message-me{
+        margin-left: -20px;
+        margin-top: 10px;
+    }
+
+    .message-me h1{
+        font-size: 20px;
+    }
+
+    .message-me p{
+        font-size: 12px;
+        margin-left: 20px;
+        width: 400px;
+
+    }
+
+
+    .form-container{
+        margin-top: 100px;
+    }
+
+    .personal-info{
+        margin-top: 150px;
+        margin-left:-30px;
+        width: 100%;
+    }
+    
 }
