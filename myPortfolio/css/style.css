@@ -545,7 +545,7 @@ section {
     max-width: 300px;
     margin: 0 auto;
     margin-left: 50px;
-    margin-top:130px;
+    margin-top:-250px;
     font-family: Arial, sans-serif;
 }
 
@@ -605,6 +605,12 @@ section {
     margin-top: 100px;
     width:fit-content;
 
+}
+
+.personal-info{
+    margin-top: 250px;
+    margin-left:500px;
+    font-size: 18px;
 }
 
 @media(max-width:700px) {
