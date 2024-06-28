@@ -327,7 +327,7 @@ section {
 /*Adjustments to sizes for Mobile Use*/
 @media(max-width: 700px){
     .logo{
-        margin-left: -100px;
+        width: 100%;
     }
     .home-content h1{
     font-size: 20px;
