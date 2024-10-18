@@ -193,8 +193,8 @@ section {
 
 .spotify{
     position: fixed;
-    top: 500px; 
-    right: 10px;
+    top:50%; 
+    right: 0%;
 
 
 
@@ -250,11 +250,11 @@ section {
 #gradPic{
     position: relative;
     border-radius: 20%;
-    top: 125px;
-    left: -190px;
+    top: 20%;
+    left: 25%;
 }
 .home-imgHover {
-    position: absolute;
+    position: relative;
     top: 0px;
     right: 0px;
     width: 40%;
@@ -268,7 +268,7 @@ section {
     opacity: 1;
 }
 
-/*
+
 
 @media (max-width: 600px ) {
     .home{
@@ -277,6 +277,10 @@ section {
 
     .spotify{
         width: 20%;
+    }
+
+    .buy-me-coffee{
+        width:50%;
     }
     
 }
@@ -289,6 +293,10 @@ section {
     .spotify{
         width: 20%;
     }
+
+    .buy-me-coffee{
+        width:50%;
+    }
 }
 
 @media (min-width: 768px ) {
@@ -298,6 +306,10 @@ section {
 
     .spotify{
         width: 20%;
+    }
+
+    .buy-me-coffee{
+        width:50%;
     }
     
 }
@@ -311,6 +323,9 @@ section {
         width: 20%;
     }
     
+    .buy-me-coffee{
+        width:50%;
+    }
 }
 
 @media (min-width: 1200px ) {
@@ -321,10 +336,15 @@ section {
     .spotify{
         width: 20%;
     }
+
+    .buy-me-coffee{
+        width:50%;
+    }
     
 }
-*/
+
 /*Adjustments to sizes for Mobile Use*/
+
 @media(max-width: 700px){
     .logo{
         width: 100%;
@@ -347,9 +367,10 @@ section {
 
 
 
-   
+
 
 }
+    
 /* ABOUT PAGE */
 
 .about{
